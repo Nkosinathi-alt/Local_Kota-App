@@ -1,0 +1,348 @@
+/* Simple, clear styles — keep these as learning-friendly */
+:root {
+  --bg: #ff8800;
+  --accent: #7a1f12;
+  --card: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial;
+  background: var(--bg);
+  color: var(--accent);
+}
+.nav {
+  background: transparent;
+  padding: 12px 20px;
+}
+.nav-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  font-weight: 800;
+  color: #fff;
+  font-size: 26px;
+}
+nav a {
+  margin-left: 18px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero {
+  display: flex;
+  gap: 20px;
+  max-width: 1100px;
+  margin: 28px auto;
+  padding: 10px;
+}
+.hero-left {
+  flex: 1;
+}
+.hero-right img {
+  width: 430px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.muted {
+  color: #6b4a43;
+}
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+.card {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0;
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 8px;
+}
+.cart {
+  background: var(--card);
+  padding: 12px;
+  border-radius: 10px;
+}
+.features {
+  padding-top: 15px;
+}
+
+/* Bottom features section (like first image) */
+.features-section {
+  background: #ffffffd3;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly; /* spreads items evenly */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: -30px; /* this pulls the white section UP */
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.feature-box .icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  margin-bottom: 14px;
+}
+.hero-img {
+  width: 520px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 14px;
+
+  position: relative;
+  top: 40px; /* pushes it downward */
+  z-index: 5; /* keeps it on top of the white section */
+}
+.icon {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Checkout Page */
+.checkout-page {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  color: var(--accent);
+}
+
+.checkout-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.checkout-wrapper {
+  display: flex;
+  gap: 30px;
+}
+
+/* Left Form Card */
+.checkout-card {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.checkout-form label {
+  font-weight: 600;
+  display: block;
+  margin-top: 12px;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 8px;
+  border: 1px solid #c9c9c9;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* Right Summary Card */
+.checkout-summary-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.checkout-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.checkout-total {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+/* Contact page wrapper */
+.contact-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.contact-page h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Contact form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+/* Textarea height */
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* Labels */
+.contact-form label {
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Button */
+.submit-btn {
+  margin-top: 10px;
+  background: black;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  transition: 0.2s ease;
+}
+
+.submit-btn:hover {
+  background: #333;
+}
+/* PAGE WRAPPER */
+.contact-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* FORM CARD */
+.contact-card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* INPUTS */
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-card textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* BUTTON */
+.contact-card .btn {
+  background: black;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-card .btn:hover {
+  opacity: 0.85;
+}

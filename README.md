@@ -30,6 +30,9 @@ to a cart, and manage simple orders. Designed as a real-world frontend applicati
 
 ## Screenshots 
 ![image alt](https://github.com/Nkosinathi-alt/Local_Kota-App/blob/07456742064520b1f0490f43c7f9e754490d4934/Screenshot_2-1-2026_3130_localhost.jpeg)
+
 ![image alt](https://github.com/Nkosinathi-alt/Local_Kota-App/blob/7a312340ec873e2bbfca4f8d09da13ca62a008ca/Screenshot_2-1-2026_3311_localhost.jpeg)
+
+![image alt](https://github.com/Nkosinathi-alt/Local_Kota-App/blob/acb57ff43c46edbc1efe46b6f5c3bfad2edc5d6b/Screenshot_2-1-2026_341_localhost.jpeg)
 
 

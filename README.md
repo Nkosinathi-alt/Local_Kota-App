@@ -28,6 +28,7 @@ to a cart, and manage simple orders. Designed as a real-world frontend applicati
 3. Run `npm install`
 4. Run `npm run dev`
 
-##Screenshots 
+## Screenshots 
+https://github.com/Nkosinathi-alt/Local_Kota-App/blob/07456742064520b1f0490f43c7f9e754490d4934/Screenshot_2-1-2026_3130_localhost.jpeg
 
 

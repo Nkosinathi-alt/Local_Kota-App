@@ -27,3 +27,7 @@ to a cart, and manage simple orders. Designed as a real-world frontend applicati
 2. Navigate to the project directory
 3. Run `npm install`
 4. Run `npm run dev`
+
+##Screenshots 
+
+

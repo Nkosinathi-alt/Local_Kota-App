@@ -1,30 +1,29 @@
-# Note App (JavaScript)
+# Kota Ordering App
 
-A simple web-based note-taking application that allows users to create, edit, and delete notes.
-The application uses browser local storage to persist data between sessions.
+A web-based food ordering application that allows users to browse menu items, add products
+to a cart, and manage simple orders. Designed as a real-world frontend application.
 
 ## Tech Stack
 - JavaScript
+- React
 - HTML
 - CSS
-- VS Code
 
 ## Features
-- Create, edit, and delete notes (CRUD functionality)
-- Persistent storage using browser localStorage
-- Clean and responsive user interface
-- Real-time updates without page refresh
-- Version control using GitHub
+- Browse food items
+- Add and remove items from cart
+- Dynamic UI updates
+- Asynchronous operations
+- Component-based architecture
 
 ## What I Learned
-- JavaScript DOM manipulation
-- Working with browser localStorage
-- Implementing CRUD functionality in JavaScript
-- Structuring small web applications
-- Basic UI styling with CSS
+- React fundamentals and component structure
+- State management
+- Handling user interactions
+- Frontend project organization
 
 ## How to Run
 1. Clone the repository
-2. Open the project folder in VS Code
-3. Open `App.html` in a browser
-
+2. Navigate to the project directory
+3. Run `npm install`
+4. Run `npm run dev`
